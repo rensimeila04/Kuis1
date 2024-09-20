@@ -33,7 +33,7 @@ public class HandPhone {
 
     public void tambahVolume() {
         if (on == true) {
-            if (this.volume >= 0 && this.volume <= 80) {
+            if (this.volume <= 80) {
                 this.volume += 20;
                 System.out.println("Volume bertambah");
                 System.out.println("Volume sekarang : " + this.volume);
