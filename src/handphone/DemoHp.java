@@ -7,6 +7,7 @@ public class DemoHp {
 
         System.out.println();
         hp.tambahVolume();
+        hp.kurangVolume();
 
         System.out.println();
         hp.power();
